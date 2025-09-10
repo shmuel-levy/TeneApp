@@ -21,7 +21,11 @@
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && echo Build completed! Ready for deployment.",
+    "deploy:netlify": "npm run build && echo Upload the 'build' folder to Netlify",
+    "deploy:vercel": "npm run build && echo Connect your GitHub repo to Vercel",
+    "preview": "npm run build && npx serve -s build"
   },
   "eslintConfig": {
     "extends": [
