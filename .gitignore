@@ -27,3 +27,18 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# Package manager
+yarn.lock

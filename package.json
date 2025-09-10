@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "תנה - פלטפורמת מרקטפלייס דיגיטלית שמחברת חקלאים קטנים ובינוניים ישירות עם צרכנים",
-  "author": "Shmuel & Elad",
+  "author": "Your Name",
   "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
