@@ -2,9 +2,23 @@ import styled from 'styled-components';
 
 
 export const InfoSec = styled.div`
-    color: #fff;
+    color: #2d5016;
     padding: 160px 0;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+    background: ${({lightBg}) => (lightBg ? 'linear-gradient(135deg, #f0f8e8 0%, #e8f5e8 50%, #d4edda 100%)' : 'linear-gradient(135deg, #2d5016 0%, #4a6741 50%, #6b8e5a 100%)')};
+    position: relative;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M0,50 Q25,20 50,50 T100,50 L100,100 L0,100 Z" fill="rgba(168,213,168,0.1)"/></svg>');
+        background-size: 200px 100px;
+        background-repeat: repeat-x;
+        pointer-events: none;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -12,7 +26,8 @@ export const InfoRow = styled.div`
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+  flex-direction: ${({ imgStart }) => (imgStart ? 'row' : 'row-reverse')};
+  direction: rtl;
 `;
 
 export const InfoColumn = styled.div`
@@ -56,11 +71,12 @@ export const TextWrapper = styled.div`
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  justify-content: ${({ start }) => (start ? 'flex-end' : 'flex-start')};
+  direction: rtl;
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#6b8e5a' : '#a8d5a8')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -82,7 +98,8 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? '#f0f8e8' : '#2d5016')};
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 `;
 
 export const Subtitle = styled.p`
@@ -90,5 +107,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#6b8e5a' : '#4a6741')};
 `;

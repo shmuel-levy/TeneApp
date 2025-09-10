@@ -3,14 +3,14 @@ export const homeObjOne = {
     lightText: false,
     lightTopLine: true,
     lightTextDesc: false,
-    topLine: 'Sign up Today',
-    headline: 'Join today to receive an exclusive offer',
+    topLine: 'הצטרף לתנה',
+    headline: 'התחל למכור או לקנות ישירות מהשדה',
     description:
-      'Get access to our exclusive diamond king package. Limited quantity available.',
-    buttonLabel: 'Sign Up',
+      'בלי תיווך, בלי כאב ראש. פלטפורמה פשוטה שמחברת חקלאים עם צרכנים - טרי, מקומי, הוגן.',
+    buttonLabel: 'התחל עכשיו',
     imgStart: '',
     img: require('../../images/svg-1.svg'),
-    alt: 'Credit Card'
+    alt: 'פלטפורמת תנה'
   };
   
   export const homeObjTwo = {
@@ -18,14 +18,14 @@ export const homeObjOne = {
     lightText: true,
     lightTopLine: true,
     lightTextDesc: true,
-    topLine: '100% Secure',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    topLine: 'לחקלאים',
+    headline: 'מקבלים ערוץ מכירה ישיר, פשוט, בלי תיווך',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
+      'בלי כאב ראש טכנולוגי. מוכרים ישירות מהשדה, במחיר הוגן, לצרכנים שמעריכים טריות ואיכות.',
+    buttonLabel: 'התחל למכור',
     imgStart: '',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'חקלאי מוכר'
   };
   
   export const homeObjThree = {
@@ -33,14 +33,14 @@ export const homeObjOne = {
     lightText: false,
     lightTopLine: true,
     lightTextDesc: false,
-    topLine: 'Easy Setup',
-    headline: 'Super fast and simple onboarding process',
+    topLine: 'לצרכנים',
+    headline: 'קונים ישירות מהחקלאי, טרי, מקומי, ובמחיר הוגן',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+      'יודעים בדיוק מי גידל את מה שאתם אוכלים. כסף נשאר אצל היצרנים המקומיים, שקיפות מלאה.',
+    buttonLabel: 'התחל לקנות',
     imgStart: 'start',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'צרכן קונה'
   };
   
   export const homeObjFour = {
@@ -48,12 +48,12 @@ export const homeObjOne = {
     lightText: true,
     lightTopLine: true,
     lightTextDesc: true,
-    topLine: 'Data Analytics',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'החזון שלנו',
+    headline: 'להחזיר את הכוח לידי החקלאים המקומיים',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
+      'לחבר בין הצרכן לשדה, ולבנות רשת שמבוססת על שקיפות, הוגנות וטריות. כסף נשאר אצל היצרנים המקומיים.',
+    buttonLabel: 'הצטרף לחזון',
     imgStart: 'start',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'חזון תנה'
   };

@@ -6,7 +6,21 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: linear-gradient(135deg, #f0f8e8 0%, #e8f5e8 50%, #d4edda 100%);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M0,50 Q25,20 50,50 T100,50 L100,100 L0,100 Z" fill="rgba(168,213,168,0.1)"/></svg>');
+    background-size: 200px 100px;
+    background-repeat: repeat-x;
+    pointer-events: none;
+  }
 `;
 
 export const PricingWrapper = styled.div`
@@ -23,9 +37,10 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #2d5016;
   font-size: 48px;
   margin-bottom: 24px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 `;
 
 export const PricingContainer = styled.div`
@@ -42,19 +57,21 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #242424;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(45, 80, 22, 0.2);
   width: 280px;
   height: 500px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 20px;
+  border: 2px solid #a8d5a8;
   &:nth-child(2) {
     margin: 24px;
   }
   &:hover {
     transform: scale(1.06);
     transition: all 0.3s ease-out;
-    color: #1c2237;
+    color: #2d5016;
+    box-shadow: 0 15px 40px rgba(45, 80, 22, 0.3);
   }
   @media screen and (max-width: 960px) {
     width: 90%;
@@ -70,7 +87,7 @@ export const PricingCardInfo = styled.div`
   height: 500px;
   padding: 24px;
   align-items: center;
-  color: #fff;
+  color: #2d5016;
 `;
 
 export const PricingCardIcon = styled.div`
@@ -97,7 +114,7 @@ export const PricingCardFeatures = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #a9b3c1;
+  color: #4a6741;
 `;
 
 export const PricingCardFeature = styled.li`

@@ -2,54 +2,54 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    topLine: 'עמוד חקלאי אישי',
+    headline: 'כל חקלאי פותח פרופיל בקלות',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
+      'גם דרך WhatsApp/SMS, בלי ידע טכנולוגי. מעלה מה יש לו למכירה (תפוחים, עגבניות, גבינות וכו\') ומתחיל למכור.',
+    buttonLabel: 'התחל עכשיו',
     imgStart: '',
     img: require('../../images/svg-1.svg'),
-    alt: 'Credit Card'
+    alt: 'פרופיל חקלאי'
   };
   
   export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: '100% Secure',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    topLine: 'קטלוג מוצרים פשוט',
+    headline: 'החקלאי מעלה מה יש לו למכירה',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
+      'מערכת פשוטה להעלאת מוצרים, מחירים ותמונות. הצרכנים רואים הכל במקום אחד - טרי, מקומי, ובמחיר הוגן.',
+    buttonLabel: 'למד עוד',
     imgStart: '',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'קטלוג מוצרים'
   };
   
   export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Easy Setup',
-    headline: 'Super fast and simple onboarding process',
+    topLine: 'משלוחים או נקודות איסוף',
+    headline: 'צרכנים בוחרים איך לקבל את ההזמנה',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+      'שילוב מודולרי של לוגיסטיקה: איסוף עצמי או משלוח. הכל מובנה בפלטפורמה - לא צריך לחשבונית בנפרד.',
+    buttonLabel: 'התחל עכשיו',
     imgStart: 'start',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'משלוחים'
   };
   
   export const homeObjFour = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Data Analytics',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'תשלום וסליקה בטוחה',
+    headline: 'מובנה בפלטפורמה - לא צריך לחשבונית בנפרד',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
+      'תשלום מאובטח ונוח לצרכנים, סליקה מהירה לחקלאים. הכל מובנה בפלטפורמה - פשוט, בטוח ויעיל.',
+    buttonLabel: 'הירשם עכשיו',
     imgStart: 'start',
     img: require('../../images/svg-1.svg'),
-    alt: 'Vault'
+    alt: 'תשלום מאובטח'
   };

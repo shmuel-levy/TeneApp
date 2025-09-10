@@ -23,21 +23,31 @@ function Navbar() {
     const [homeClick, setHomeClick] = useState(false);
     const [servicesClick, setServicesClick] = useState(false);
     const [productsClick, setProductsClick] = useState(false);
+    const [aboutClick, setAboutClick] = useState(false);
 
     const handleHomeClick = () => {
         setHomeClick(true);
         setProductsClick(false);
         setServicesClick(false);
+        setAboutClick(false);
     }
     const handleServicesClick = () => {
         setHomeClick(false);
         setProductsClick(false);
         setServicesClick(true);
+        setAboutClick(false);
     }
     const handleProductsClick = () => {
         setHomeClick(false);
         setProductsClick(true);
         setServicesClick(false);
+        setAboutClick(false);
+    }
+    const handleAboutClick = () => {
+        setHomeClick(false);
+        setProductsClick(false);
+        setServicesClick(false);
+        setAboutClick(true);
     }
 
     const handleClick = () =>  setClick(!click);
@@ -66,7 +76,7 @@ function Navbar() {
                 <NavbarContainer>
                     <NavLogo to='/'> 
                         <NavIcon />
-                            ULTRA
+                            תנה
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -74,32 +84,38 @@ function Navbar() {
                     <NavMenu onClick={handleClick} click={click} >
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
                             <NavLinks to='/' onClick={closeMobileMenu}>
-                                Home
+                                בית
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Services
+                                שירותים
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
                             <NavLinks to='/Products' onClick={closeMobileMenu}>
-                                Products
+                                מוצרים
+                            </NavLinks>
+                        </NavItem>
+
+                        <NavItem onClick={handleAboutClick} aboutClick={aboutClick}>
+                            <NavLinks to='/about' onClick={closeMobileMenu}>
+                                אודותינו
                             </NavLinks>
                         </NavItem>
 
                         <NavItemBtn >
                             {button ? (
                                 <NavBtnLink to='/sign-up'>
-                                    <Button primary>SIGN UP</Button>
+                                    <Button primary>הירשם</Button>
                                 </NavBtnLink>
                             ) : (
                                 <NavBtnLink to='/sign-up'>
-                                    <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
+                                    <Button onClick={closeMobileMenu} fontBig primary>הירשם</Button>
                                 </NavBtnLink>
                             )}
                             

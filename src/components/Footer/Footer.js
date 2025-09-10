@@ -36,46 +36,46 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          הצטרף לקהילת תנה - חקלאים וצרכנים מקומיים
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>קבל עדכונים על מוצרים טריים חדשים וחקלאים חדשים באזור שלך.</FooterSubText>
         <Form>
-          <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <FormInput name='email' type='email' placeholder='האימייל שלך' />
+          <Button fontBig>הירשם</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLinkTitle>אודות תנה</FooterLinkTitle>
+            <FooterLink to='/sign-up'>איך זה עובד</FooterLink>
+            <FooterLink to='/'>סיפורי הצלחה</FooterLink>
+            <FooterLink to='/'>הצטרף לצוות</FooterLink>
+            <FooterLink to='/'>השקעות</FooterLink>
+            <FooterLink to='/'>תנאי שימוש</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
+            <FooterLinkTitle>תמיכה</FooterLinkTitle>
+            <FooterLink to='/'>צור קשר</FooterLink>
+            <FooterLink to='/'>עזרה לחקלאים</FooterLink>
+            <FooterLink to='/'>עזרה לצרכנים</FooterLink>
+            <FooterLink to='/'>שאלות נפוצות</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterLinkTitle>משאבים</FooterLinkTitle>
+            <FooterLink to='/'>מדריכים לחקלאים</FooterLink>
+            <FooterLink to='/'>בלוג</FooterLink>
+            <FooterLink to='/'>מקרי בוחן</FooterLink>
+            <FooterLink to='/'>הורדות</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+            <FooterLinkTitle>עקבו אחרינו</FooterLinkTitle>
+            <FooterLink to='/'>אינסטגרם</FooterLink>
+            <FooterLink to='/'>פייסבוק</FooterLink>
+            <FooterLink to='/'>יוטיוב</FooterLink>
+            <FooterLink to='/'>טוויטר</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -83,9 +83,9 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            ULTRA
+            תנה
           </SocialLogo>
-          <WebsiteRights>ULTRA © {date.getFullYear()} </WebsiteRights>
+          <WebsiteRights>תנה © {date.getFullYear()} - פלטפורמת מרקטפלייס דיגיטלית לחקלאים</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
+import { FaSeedling, FaTractor, FaMountain } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -22,57 +19,57 @@ import {
 
  const Pricing = () => {
   return (
-    <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
+    <IconContext.Provider value={{ color: '#2d5016', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>תוכניות המחירים שלנו</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <FaSeedling />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>חקלאי מתחיל</PricingCardPlan>
+                <PricingCardCost>₪0</PricingCardCost>
+                <PricingCardLength>לחודש</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>עמוד חקלאי אישי</PricingCardFeature>
+                  <PricingCardFeature>עד 20 מוצרים</PricingCardFeature>
+                  <PricingCardFeature>3% עמלה על מכירות</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>התחל בחינם</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <FaTractor />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>חקלאי מקצועי</PricingCardPlan>
+                <PricingCardCost>₪29</PricingCardCost>
+                <PricingCardLength>לחודש</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>מוצרים בלתי מוגבלים</PricingCardFeature>
+                  <PricingCardFeature>ניתוח מכירות מתקדם</PricingCardFeature>
+                  <PricingCardFeature>2% עמלה על מכירות</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>בחר תוכנית</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <FaMountain />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>חקלאי פרימיום</PricingCardPlan>
+                <PricingCardCost>₪59</PricingCardCost>
+                <PricingCardLength>לחודש</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>כל התכונות + עדיפות</PricingCardFeature>
+                  <PricingCardFeature>1% עמלה על מכירות</PricingCardFeature>
+                  <PricingCardFeature>תמיכה 24/7</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>בחר תוכנית</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

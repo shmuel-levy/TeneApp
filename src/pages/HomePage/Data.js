@@ -4,14 +4,14 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'פלטפורמת מרקטפלייס דיגיטלית',
+    headline: 'תנה - מחברת חקלאים ישירות עם צרכנים',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
+      'פלטפורמה שמחברת חקלאים קטנים ובינוניים ישירות עם צרכנים – בלי מתווכים, בלי כאב ראש, ובצורה הכי פשוטה.',
+    buttonLabel: 'התחל עכשיו',
     imgStart: '',
     img: require('../../images/svg-1.svg'),
-    alt: 'Credit Card',
+    alt: 'פלטפורמת תנה',
     start: ''
   };
   
@@ -21,14 +21,14 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Instant Setup',
-    headline: 'Extremely quick onboarding process',
+    topLine: 'התקנה פשוטה',
+    headline: 'עמוד חקלאי אישי - גם בלי ידע טכנולוגי',
     description:
-      "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-    buttonLabel: 'Learn More',
+      "כל חקלאי פותח פרופיל בקלות - גם דרך WhatsApp/SMS, בלי ידע טכנולוגי. מעלה מה יש לו למכירה ומתחיל למכור.",
+    buttonLabel: 'למד עוד',
     imgStart: '',
     img: require('../../images/svg-2.svg'),
-    alt: 'Vault',
+    alt: 'פרופיל חקלאי',
     start: ''
   };
   
@@ -38,15 +38,15 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Sarah Jeni',
+    topLine: 'דוד כהן - חקלאי',
     headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+      'תנה עזרה לי למכור ישירות לצרכנים ולהגדיל את ההכנסות שלי ב-40%!',
     description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
+      "עכשיו אני מוכר ישירות מהשדה, בלי תיווך, במחיר הוגן. הצרכנים מקבלים טרי וטעים, ואני מקבל יותר כסף.",
+    buttonLabel: 'קרא עוד סיפורים',
     imgStart: 'start',
     img: require('../../images/profile.jpg'),
-    alt: 'Vault',
+    alt: 'חקלאי מרוצה',
     start: 'true'
   };
   
@@ -56,13 +56,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Secure Database',
-    headline: 'All your data is stored on our secure server',
+    topLine: 'סל קניות מאוחד',
+    headline: 'קנה מכמה חקלאים - תשלום אחד נוח',
     description:
-      'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
-    buttonLabel: 'Sign Up Now',
+      'הצרכן יכול להוסיף מוצרים מכמה חקלאים שונים ולעשות תשלום אחד נוח. משלוחים או נקודות איסוף - הכל מובנה בפלטפורמה.',
+    buttonLabel: 'התחל לקנות',
     imgStart: 'start',
     img: require('../../images/svg-3.svg'),
-    alt: 'Vault',
+    alt: 'סל קניות',
     start: 'true'
   };
