@@ -3,7 +3,7 @@
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "14"
+  NODE_VERSION = "18"
   NODE_OPTIONS = "--openssl-legacy-provider"
 
 [[redirects]]
@@ -12,13 +12,13 @@
   status = 200
 
 [context.production]
-  command = "npm run build"
+  command = "npm run build:legacy"
 
 [context.deploy-preview]
-  command = "npm run build"
+  command = "npm run build:legacy"
 
 [context.branch-deploy]
-  command = "npm run build"
+  command = "npm run build:legacy"
 
 # Headers for better performance and security
 [[headers]]
