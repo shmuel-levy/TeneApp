@@ -29,7 +29,7 @@ const About = () => {
                 </AboutCardText>
               </AboutCardInfo>
               <AboutImageWrapper>
-                <AboutImage src={require('../../images/profile.jpg')} alt="שמואל" />
+                <AboutImage src={require('../../images/shmuel white.jpg')} alt="שמואל" />
               </AboutImageWrapper>
             </AboutCard>
 
