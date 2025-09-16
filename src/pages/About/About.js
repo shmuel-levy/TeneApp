@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutSection, AboutContainer, AboutWrapper, AboutHeading, AboutCard, AboutCardInfo, AboutCardIcon, AboutCardTitle, AboutCardText, AboutImage, AboutImageWrapper } from './About.elements';
-import { FaSeedling, FaMountain, FaTractor, FaLeaf } from 'react-icons/fa';
+import { FaCode, FaMountain, FaCamera, FaLeaf } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
 const About = () => {
@@ -9,23 +9,23 @@ const About = () => {
       <AboutSection>
         <AboutContainer>
           <AboutWrapper>
-            <AboutHeading>הכירו את הצוות שלנו</AboutHeading>
+            <AboutHeading>הכירו את המייסדים שלנו</AboutHeading>
             
             <AboutCard>
               <AboutCardInfo>
                 <AboutCardIcon>
-                  <FaSeedling />
+                  <FaCode />
                 </AboutCardIcon>
-                <AboutCardTitle>שמואל - מייסד ומנכ"ל</AboutCardTitle>
+                <AboutCardTitle>שמואל - מייסד ומנכ"ל משותף</AboutCardTitle>
                 <AboutCardText>
-                  שמואל הוא חקלאי מנוסה עם יותר מ-15 שנות ניסיון בגידול ירקות אורגניים. 
-                  הוא גדל בחוות משפחתית קטנה בצפון הארץ, שם למד על האתגרים של חקלאים קטנים 
-                  במכירה ישירה לצרכנים. החזון שלו הוא לחבר בין השדה לצרכן, 
-                  להחזיר את הכוח לידי החקלאים המקומיים ולבנות קהילה שמבוססת על שקיפות ואיכות.
+                  שמואל הוא מומחה בבניית אתרים ופיתוח תוכנה עם תשוקה לחקלאות וטכנולוגיה. 
+                  הוא מתמחה בפיתוח פתרונות דיגיטליים מתקדמים לחקלאים, כולל מערכות ניהול, 
+                  פלטפורמות מסחר אלקטרוני וכלים טכנולוגיים שמחברים בין השדה לצרכן. 
+                  החזון שלו הוא להביא את הטכנולוגיה המתקדמת ביותר לחקלאים המקומיים.
                 </AboutCardText>
                 <AboutCardText>
-                  "אני מאמין שכל צרכן צריך לדעת מי גידל את האוכל שלו, ואיך הוא גדל. 
-                  תנה נותנת לנו את הכלים לעשות את זה בצורה הכי פשוטה וישירה."
+                  "אני מאמין שטכנולוגיה מתקדמת צריכה להיות נגישה לכל חקלאי. 
+                  תנה נותנת לנו את הכלים הטכנולוגיים הכי מתקדמים לניהול ומכירה יעילה."
                 </AboutCardText>
               </AboutCardInfo>
               <AboutImageWrapper>
@@ -39,18 +39,18 @@ const About = () => {
               </AboutImageWrapper>
               <AboutCardInfo>
                 <AboutCardIcon>
-                  <FaTractor />
+                  <FaCamera />
                 </AboutCardIcon>
-                <AboutCardTitle>אלעד - מייסד ומנהל טכנולוגיות</AboutCardTitle>
+                <AboutCardTitle>אלעד - מייסד ומנכ"ל משותף</AboutCardTitle>
                 <AboutCardText>
-                  אלעד הוא מהנדס תוכנה עם תשוקה לחקלאות וטכנולוגיה. 
-                  הוא עבד בחברות הייטק מובילות לפני שהחליט להקדיש את הקריירה שלו 
-                  לפיתוח פתרונות טכנולוגיים לחקלאים. הוא האחראי על הפיתוח הטכני של הפלטפורמה 
-                  ועל כך שהיא תהיה פשוטה ונגישה גם לחקלאים ללא רקע טכנולוגי.
+                  אלעד הוא מומחה בשיווק ופרסום עם רחפן, עם ניסיון רב בתחום השיווק הדיגיטלי והצילום האווירי. 
+                  הוא מתמחה ביצירת תוכן ויזואלי מרהיב לחקלאים, כולל צילומי רחפן של השדות, 
+                  סרטוני שיווק וקמפיינים דיגיטליים שמבליטים את האיכות והטריות של התוצרת החקלאית. 
+                  החזון שלו הוא להביא את הסיפור של החקלאים לצרכנים בצורה הכי מרשימה ויעילה.
                 </AboutCardText>
                 <AboutCardText>
-                  "הטכנולוגיה צריכה לשרת את החקלאים, לא להקשות עליהם. 
-                  הפלטפורמה שלנו מאפשרת לחקלאים להתמקד במה שהם הכי טובים בו - גידול אוכל איכותי."
+                  "אני מאמין שכל חקלאי צריך לספר את הסיפור שלו. 
+                  תנה נותנת לנו את הכלים הויזואליים והשיווקיים הכי מתקדמים להציג את התוצרת שלנו."
                 </AboutCardText>
               </AboutCardInfo>
             </AboutCard>
